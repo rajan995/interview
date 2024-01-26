@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+import 'package:platable/model/product.dart';
+
+List<Product> dataSource = [
+  Product(
+      image: 'assets/images/Pic_Menu.png',
+      name: 'Modern Greek Crunch',
+      brandImage: 'assets/icons/just_salad.png',
+      brandName: "Just salad",
+      brandNameColor: 0xffFFFBFF,
+      brandBgColor: 0xff13274A,
+      status: "Collect Today",
+      time: "19.00 - 21.00",
+      rating: "4.8",
+      distance: "6",
+      qty: "1",
+      qtyBtnColor: 0xffEA4335,
+      price: 5,
+      discountedPrice: 10),
+  Product(
+      image: 'assets/images/Walmart.png',
+      name: 'The Only Bean - Crunchy Roasted',
+      brandImage: 'assets/images/Walmart-brand.png',
+      brandName: "Walmart",
+      brandNameColor: 0xffFFFBFF,
+      brandBgColor: 0xff2B71D5,
+      status: "Tomorrow",
+      time: "17.00 - 21.00",
+      rating: "4.1",
+      distance: "1",
+      qty: "10",
+      qtyBtnColor: 0xffFBBC05,
+      price: 10,
+      discountedPrice: 50),
+  Product(
+      image: 'assets/images/Chili.png',
+      name: 'Chipotle Chicken Fresh Mex Bowl',
+      brandImage: 'assets/images/Chili-brand.png',
+      brandName: "Chili’s",
+      brandNameColor: 0xff5E9633,
+      brandBgColor: 0xff13274A,
+      status: "Tomorrow",
+      time: "17.00 - 21.00",
+      rating: "4.9",
+      distance: "8",
+      qty: "4",
+      qtyBtnColor: 0xffEA4335,
+      price: 8,
+      discountedPrice: 12)
+];
